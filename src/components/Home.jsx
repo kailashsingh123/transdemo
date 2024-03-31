@@ -16,7 +16,7 @@ export function Home(props) {
 
     return (
         <>
-        <div className='container mx-auto my-auto md:py-24 lg:py-24 py-28'>
+        <div className='container mx-auto my-auto md:py-24 lg:py-20 py-24'>
         <Carousel/>
         <div className='max-h-max w-full bg-sky-200'>
         <p className="text-2xl text-green-500 uppercase ml-5 px-3 py-10">Why Choose Us</p>
@@ -127,7 +127,7 @@ export function Home(props) {
          
          <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-3 px-6 gap-6'>
 
-            <div className='h-96 w-full bg-white rounded-md'>
+            <div className='animate__animated animate__slideInRight h-96 w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '><p>"TransCon Services and Technologies greatly stepped up our efforts in designing and implementing the Data Privacy Framework.Their competent set of skills and experiences were exactly what we needed." </p></div>
                 <div className='mx-8 py-5 text-xl text-justify '>
@@ -137,7 +137,7 @@ export function Home(props) {
                     <p className='flex'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></p>
                 </div>
             </div>
-            <div className='h-96 w-full bg-white rounded-md'>
+            <div className='animate__animated animate__slideInRight h-96 w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '>
                     <p>“TransConST has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>

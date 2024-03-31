@@ -12,15 +12,15 @@ export function Securingprocess(props) {
             {/* Securing Process  */}
 
          <div className='bg-green-500'>
-          <h1 className=' text-center py-10 text-4xl font-bold text-blue-950 '>Securing Process</h1>
+          <h1 className=' animate__animated animate__fadeInUp text-center py-10 text-4xl font-bold text-blue-950 '>Securing Process</h1>
          </div>
 
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
             <div className='ml-10'>
-             <p className=' text-blue-950 text-4xl font-bold'>Securing Processes</p>
-             <p className='text-[22px] pt-3 text-justify'>Processes are the step-by-step guide that describes how things are done in the best possible way in the organization, thereby making it easy for people to focus on the major areas. Hence planning and managing key processes effectively and efficiently, not only reduces the risk to the business, but also enables organization to comply with the best methods, thereby ensures the success of the business.</p>
+             <p className=' animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing Processes</p>
+             <p className=' animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>Processes are the step-by-step guide that describes how things are done in the best possible way in the organization, thereby making it easy for people to focus on the major areas. Hence planning and managing key processes effectively and efficiently, not only reduces the risk to the business, but also enables organization to comply with the best methods, thereby ensures the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>
              <ul className='list-disc ml-5 text-lg'>
                 <li>Improved Efficiency and Effectiveness</li>
@@ -42,7 +42,7 @@ export function Securingprocess(props) {
 
 {/* ------------------------------------------------------------------------------- */}
 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-1s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/staty.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -55,7 +55,7 @@ export function Securingprocess(props) {
                 </div>
                 </div>
                 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-1s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/risk.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -69,7 +69,7 @@ export function Securingprocess(props) {
                 </div>
 {/* ----------------------------------------------------------------------------------- */}
                
-               <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+               <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/compli.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -83,7 +83,7 @@ export function Securingprocess(props) {
                 </div>
                 </div>
                 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/Incident.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -99,7 +99,7 @@ export function Securingprocess(props) {
 
 {/* ----------------------------------------------------------------------------------- */}
 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/Audits.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -114,7 +114,7 @@ export function Securingprocess(props) {
                 </div>
                 </div>
                 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/third.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -130,7 +130,7 @@ export function Securingprocess(props) {
                 {/* ---------------------------------------------------------------  */}
     
 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/identy.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
@@ -145,7 +145,7 @@ export function Securingprocess(props) {
                 </div>
                 </div>
                 
-                <div className='h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
+                <div className=' animate__animated animate__fadeInUp animate__delay-2s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/recovery.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />

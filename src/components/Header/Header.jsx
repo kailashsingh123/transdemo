@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa6";
 import {IoArrowForwardCircleOutline, IoMailUnreadOutline} from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import { TiPlus, TiMinus } from "react-icons/ti";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
 
@@ -19,41 +20,57 @@ export function Header(props) {
   const handleClick = () => {
     setMenu(!menu)
   }
+
+function handleMouseEnter() {
+  setIsOpen(true);
+}
+
+function handleMouseLeave() {
+  setIsOpen(false);
+}
     
 
     return (
       <>
         <header>
-          <nav className='p-5 fixed z-50 mx-auto my-auto  w-full bg-white shadow md:flex md:items-center md:justify-between'>
+          <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-indigo-950
+           shadow md:items-center md:justify-between'>
             <div className='flex justify-between items-center'>
                <Link to="/">
              <span>    
-                 <img src="image/logo.png" alt="logo" className='h-16 '  />
+                 <img src="image/logo1.jpeg" alt="logo" className='h-24 w-96'  />
             </span>
                </Link>
                
-              <button className='flex text-3xl cursor-pointer md:hidden'
+              {/* <button className='flex text-3xl text-amber-200 cursor-pointer md:hidden'
                onClick={handleClick}
               >
               {menu ? <IoMdClose/> : <FaBars/>}
-              </button>
-            </div>
-            <div className=''>
+              </button> */}
 
-             <ul className={`md:flex md:items-center space-x-4 md:pb-0 pt-4 pb-5 text-blue-950 absolute md:static bg-white opacity-95  z-10 left-0 w-40 md:w-auto md:pl-0 py-5 pl-9 transition-all duration-500 transform ease-in ${menu ? 'left-0' : 'top-[-490px]'} `}>
-                <li className='mx-1 my-2 md:my-2'><NavLink to="/">HOME</NavLink></li>
+
+            </div>
+            <div className='flex justify-between items-left'>
+
+             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-8 md:pb-0 py-1 text-amber-200 absolute md:static bg-indigo-950 opacity-95  z-10 left-0 w-40 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
+
+
+             {/* <ul className={`flex bg-indigo-950 text-amber-200 justify-end pl-24 space-x-8 `} >
+               */}
+                <li className='mx-1 my-2 md:my-2 pl-7'><NavLink to="/"
+                >HOME</NavLink></li>
                 <li className='mx-1 my-2 md:my-2'><NavLink to="/about">ABOUT</NavLink></li>
-                <li onClick={() => setIsOpen((prev) => !prev)} className='mx-1 my-3 md:my-2 inline-flex cursor-pointer'>SERVICES
-                  {!isOpen ? (<TiPlus />) : (<TiMinus />)}
+                <li  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='mx-1 my-3 md:my-2 w-16 pb-6 h-6 bg:yellow-950 cursor-pointer'>SERVICES
+                  {/* {!isOpen ? (<TiPlus />) : (<TiMinus />)} */}
                 
 {/*             Drop Down Button */}
-               {isOpen && (<div className='bg-white absolute overflow-hidden top-20 flex flex-col p-3 w-52 rounded-bl-3xl rounded-br-3xl'>
+               {isOpen && (<div className='bg-indigo-950 absolute overflow-hidden top-10 flex flex-col p-3 w-52 rounded-bl-2xl rounded-br-2xl'>
                 <ul className='space-y-6'>
                      <li className=''><NavLink to="/securingpeople">Securing People</NavLink></li>
                      <li className=''><NavLink to="/securingprocess">Securing Process</NavLink>{}</li>
-                     <li className=''><NavLink to="/">Securing Technology</NavLink>{}</li>
-                     <li className=''><NavLink to="/">Securing Things</NavLink>{}</li>
-                     <li className=''><NavLink to="/">Securing Data</NavLink>{}</li>
+                     <li className=''><NavLink to="/securingtechnology">Securing Technology</NavLink>{}</li>
+                     <li className=''><NavLink to="/securingthings">Securing Things</NavLink>{}</li>
+                     <li className=''><NavLink to="/securingdata">Securing Data</NavLink>{}</li>
                      
                 </ul>
                 </div>
@@ -61,16 +78,28 @@ export function Header(props) {
                 </li>
                {/* ------------------- */}
                 
-                <li className='mx-1 my-2 md:my-2'><NavLink to="/">SOLUTIONS</NavLink></li>
+                <li className='mx-1 my-2 md:my-2'><NavLink to="/solutions">SOLUTIONS</NavLink></li>
                 <li className='mx-1 my-2 md:my-2'>BLOG</li>
                 <li className='mx-1 my-2 md:my-2'>CONTACT</li>
-                <li className='mx-1 my-2 md:my-2'>WORK WITH US</li>
+                <li className='mx-1 my-2 md:my-2 text-nowrap'>WORK WITH US</li>
               </ul>
+              </div> 
 
+              {/*  Icons  */}
+
+             <div className='flex text-3xl cursor-pointer text-amber-200 space-x-3 px-5 '>
               
+              <button className=' '><FaRegArrowAltCircleRight /></button>
+              <button className='md:hidden'
+               onClick={handleClick}
+              >
+              {menu ? <IoMdClose/> : <FaBars/>}
+              </button>
+              </div>
+
+              {/*  Icons  */}
               
-              
-            </div>            
+                       
           </nav>
         </header>
            

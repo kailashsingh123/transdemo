@@ -13,7 +13,7 @@ export function Carousel(props) {
     useEffect(()=>{
         setInterval(()=>{
             setSelectedImage(selectedImage=> selectedImage < 2 ? selectedImage+1 : 0)
-        },2000)
+        },3000)
     },[])
     
 
