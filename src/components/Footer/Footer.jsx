@@ -28,17 +28,17 @@ export function Footer(props) {
                     <div>
                     <h1 className='text-2xl text-blue-950 font-semibold'>Contact Us</h1>
                     <p className='flex text-xl py-auto px-3 font-bold opacity-80'><span className='pt-2 pe-3'><MdEmail /></span>Email</p>
-                    <p className='ps-12 opacity-80'>contact@transconst.com</p>
+                    <p className='ps-12 opacity-80'>stallionit295@gmail.com</p>
                     </div>
                     
                     <div>
                     <p className='flex text-xl py-auto px-3 font-bold  opacity-80'><span className='pt-2 pe-3'><BsFillTelephoneFill /></span>Phone</p>
-                    <p className='ps-12 opacity-80'><span>+91</span><span className='px-2'>8454800476</span></p>
+                    <p className='ps-12 opacity-80'><span>+91</span><span className='px-2'>8104748884</span></p>
                     </div>
 
                     <div>
                     <p className='flex text-xl py-auto px-3 font-bold  opacity-80'><span className='pt-2 pe-3'><FaLocationDot /></span>Address</p>
-                    <p className='ps-12 opacity-80'><span>+91</span><span className='px-2 text-base'>406,Sai Janak Classic, Sudhir Phadke Flyover, Borivali West, Mumbai, Maharashtra, India - 400103</span></p>
+                    <p className='ps-12 text-justify opacity-80'><span className='px-2 text-base'>Jagannath Commerce Plaza, 2nd Floor Office No 221, Dombivli Manpada Road, Dombivli East, Thane Maharashtra 421201.</span></p>
                     </div>
                 </div>
                 <div className='max-h-max w-full px-3 py-3 mx-1 my-2 text-xl text-justify font-normal'>

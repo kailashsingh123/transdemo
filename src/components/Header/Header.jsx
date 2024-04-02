@@ -35,10 +35,10 @@ function handleMouseLeave() {
         <header>
           <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-indigo-950
            shadow md:items-center md:justify-between'>
-            <div className='flex justify-between items-center'>
+            <div className='w-[60%] sm:w-[25%] flex justify-between items-center'>
                <Link to="/">
              <span>    
-                 <img src="image/logo1.jpeg" alt="logo" className='h-24 w-96'  />
+                 <img src="image/logo1.jpeg" alt="logo" className='h-24 w-60'  />
             </span>
                </Link>
                
@@ -60,7 +60,7 @@ function handleMouseLeave() {
                 <li className='mx-1 my-2 md:my-2 pl-7'><NavLink to="/"
                 >HOME</NavLink></li>
                 <li className='mx-1 my-2 md:my-2'><NavLink to="/about">ABOUT</NavLink></li>
-                <li  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='mx-1 my-3 md:my-2 w-16 pb-6 h-6 bg:yellow-950 cursor-pointer'>SERVICES
+                <li  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='mx-1 my-3 md:my-2 w-16 pb-6 h-6 bg:yellow-950 cursor-pointer  hover:underline-offset-[3px]'>SERVICES
                   {/* {!isOpen ? (<TiPlus />) : (<TiMinus />)} */}
                 
 {/*             Drop Down Button */}
@@ -79,7 +79,6 @@ function handleMouseLeave() {
                {/* ------------------- */}
                 
                 <li className='mx-1 my-2 md:my-2'><NavLink to="/solutions">SOLUTIONS</NavLink></li>
-                <li className='mx-1 my-2 md:my-2'>BLOG</li>
                 <li className='mx-1 my-2 md:my-2'>CONTACT</li>
                 <li className='mx-1 my-2 md:my-2 text-nowrap'>WORK WITH US</li>
               </ul>
@@ -87,7 +86,7 @@ function handleMouseLeave() {
 
               {/*  Icons  */}
 
-             <div className='flex text-3xl cursor-pointer text-amber-200 space-x-3 px-5 '>
+             <div className=' w-[40%] sm:w-[20%] flex text-3xl cursor-pointer text-amber-200 space-x-4 justify-end  sm:justify-center px-4 '>
               
               <button className=' '><FaRegArrowAltCircleRight /></button>
               <button className='md:hidden'

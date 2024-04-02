@@ -72,8 +72,11 @@ export function Securingdata(props) {
             </div>
 
 {/* ----------------------------Last Box ----------------------------------- */}
-               
-                {/* <div className='flex justify-center animate__animated animate__fadeInUp animate__delay-1s h-full w-1/2 bg-white rounded-md md:px-2 px-5 py-5 '>
+            
+               <div className=' grid sm:grid-cols-12 pb-12 mx-2 '>
+                <div className='sm:col-span-3'></div>
+                   <div className='sm:col-span-6'>
+                    <div className='animate__animated animate__fadeInUp animate__delay-1s h-full w-full bg-white rounded-md md:px-2 px-5 py-5 '>
                    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 lg:text-left md:text-left text-center  '>
                     <div className=''>
                         <img src="image/data-sec.jpg" className='h-40 w-36 py-4 mx-auto' alt="devicy-sectrty" />
@@ -84,7 +87,10 @@ export function Securingdata(props) {
                         <button className='h-14 w-52 text-white text-[18] px-auto py-auto my-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Share More Details <span>..</span> </button>
                     </div>
                 </div>
-                </div> */}
+                   </div>
+                   </div>
+                <div className='sm:col-span-3 md:hidden'></div>
+                </div>
 
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from './Carousel'
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
+import Marquee from "react-fast-marquee";
 
 export function About(props) {
     
@@ -109,21 +110,24 @@ export function About(props) {
 
         <div className='max-h-max w-full bg-white px-6 py-6'>
                  <h1 className='text-4xl text-blue-950 text-center font-semibold '>Our Partners</h1>
-            <div className='flex items-center space-x-4 py-10'>
-                <div className='w-full h-28'>
+            <Marquee speed={100} pauseOnHover>
+            <div className='flex items-center space-x-10 mx-8 py-10'>
+                
+                <div className='w-full sm:w-60 h-28'>
                     <img className='mx-auto' src="image/customer-logo-5.png" alt="" />
                 </div>
-                <div className='w-full h-28'>
+                <div className='w-full sm:w-60 h-28'>
                     <img className='mx-auto' src="image/customer-logo-10.png" alt="" />
                 </div>
-                <div className='w-full h-28'>
+                <div className='w-full sm:w-60 h-28'>
                     <img className='mx-auto' src="image/customer-logo-5.png" alt="" />
                 </div>
-                <div className='w-full h-28'>
+                <div className='w-full sm:w-60 h-28'>
                     <img className='mx-auto' src="image/customer-logo-10.png" alt="" />
                 </div>
+                
             </div>
-            
+            </Marquee>
         </div>
         </div>
 

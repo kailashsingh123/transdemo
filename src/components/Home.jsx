@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from './Carousel'
+import { Carousel1 } from './Carousel1';
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 import { FcRating } from "react-icons/fc";
 import { RiContactsBookFill } from "react-icons/ri";
@@ -17,7 +18,7 @@ export function Home(props) {
     return (
         <>
         <div className='container mx-auto my-auto md:py-24 lg:py-20 py-24'>
-        <Carousel/>
+        <Carousel1/>
         <div className='max-h-max w-full bg-sky-200'>
         <p className="text-2xl text-green-500 uppercase ml-5 px-3 py-10">Why Choose Us</p>
           <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 px-5 mx-8'>
@@ -120,6 +121,8 @@ export function Home(props) {
 
         </div>
         </div>
+{/*--------------------------- Client Testimonial Start --------------------------------  */}
+
 
         <div className='max-h-max w-full bg-indigo-300 bg-opacity-40'>
         <p className='text-4xl text-center py-4 font-semibold text-blue-950'>Client Testimonials  </p>
@@ -127,7 +130,7 @@ export function Home(props) {
          
          <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-3 px-6 gap-6'>
 
-            <div className='animate__animated animate__slideInRight h-96 w-full bg-white rounded-md'>
+            <div className=' w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '><p>"TransCon Services and Technologies greatly stepped up our efforts in designing and implementing the Data Privacy Framework.Their competent set of skills and experiences were exactly what we needed." </p></div>
                 <div className='mx-8 py-5 text-xl text-justify '>
@@ -137,7 +140,7 @@ export function Home(props) {
                     <p className='flex'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></p>
                 </div>
             </div>
-            <div className='animate__animated animate__slideInRight h-96 w-full bg-white rounded-md'>
+            <div className=' h-96 w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '>
                     <p>“TransConST has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>
@@ -154,8 +157,12 @@ export function Home(props) {
 
         </div>
 
+
+
+{/*---------------------------------- Client Testimonial End -------------------------  */}
+
         <div className=' max-h-max space-y-6 w-full bg-white '>
-            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 py-3 mx-2'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 py-8 mx-2'>
                 <div className=' py-3 px-6'>
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
@@ -165,8 +172,7 @@ export function Home(props) {
                     <div className='flex'>
                     <div className='text-3xl py-6 px-3'><RiContactsBookFill/></div>
                         <div className=''>
-                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'>406,Sai Janak Classic, Sudhir Phadke Flyover,
-                              Borivali West, Mumbai, Maharashtra, India - 400103
+                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'>Jagannath Commerce Plaza, 2nd Floor Office No 221, Dombivli Manpada Road, Dombivli East, Thane Maharashtra 421201.
                             </p>
                         </div>
                     </div>
@@ -177,7 +183,7 @@ export function Home(props) {
                     <div className='flex'>
                     <div className='text-3xl py-auto px-3'><MdEmail /></div>
                         <div className=''>
-                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'>contactus@transconst.com
+                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'>stallionit295@gmail.com
                             </p>
                         </div>
                     </div>
@@ -188,7 +194,7 @@ export function Home(props) {
                     <div className='flex'>
                     <div className='text-3xl py-auto px-3'><FaWhatsapp /></div>
                         <div className=''>
-                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'><span>+91</span><span className='px-2'>8454800476</span>
+                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'><span>+91</span><span className='px-2'>8104748884</span>
                             </p>
                         </div>
                     </div>
@@ -199,16 +205,14 @@ export function Home(props) {
                     <div className='flex'>
                     <div className='text-3xl py-auto px-3'><BsFillTelephoneFill /></div>
                         <div className=''>
-                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'><span>+91</span><span className='px-2'>8454800476</span>
+                             <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'><span>+91</span><span className='px-2'>8104748884</span>
                             </p>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div className='py-3 px-3'>
-                        <iframe className='h-96 w-full' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235.43892279930216!2d72.8558855845244!3d19.237839617456682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc128d6316492d4d0!2sTransCon%20Services%20and%20Technologies%20(TransConST)!5e0!3m2!1sen!2sin!4v1657536147065!5m2!1sen!2sin">
-                        </iframe>
-
+                        <iframe className='h-96 w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.47380446524724!2d73.09151841331472!3d19.21350029152767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795b3169ff78f%3A0x975f18de11e9a0f2!2sJagannath%E2%80%99s%20Commerce%20Plaza!5e0!3m2!1sen!2snp!4v1712086028017!5m2!1sen!2snp" ></iframe>
                 </div>
             </div>
 
