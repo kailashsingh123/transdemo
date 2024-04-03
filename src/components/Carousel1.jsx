@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline} from "react-icons/io5";
+import { TypeAnimation } from 'react-type-animation';
 
 import image1 from "/image/bnr-1.jpg"
 import image2 from "/image/bnr-2.jpg"
@@ -25,34 +26,56 @@ export function Carousel1(props) {
     useEffect(()=>{
         setInterval(()=>{
             setSelectedImage(selectedDesc=> selectedDesc < 2 ? selectedDesc+1 : 0)
-        },3000)
+        },7500)
     },[])
 
 
     useEffect(()=>{
         setInterval(()=>{
             setSelectedTitle(selectedTitle=> selectedTitle < 2 ? selectedTitle+1 : 0)
-        },3000)
+        },7500)
     },[])
 
     useEffect(()=>{
         setInterval(()=>{
             setSelectedDesc(selectedTitle=> selectedTitle < 2 ? selectedTitle+1 : 0)
-        },3000)
+        },7500)
     },[])
     
 
     return (
         <>
-          <div className='overflow-hidden relative h-full z-0 m-0 p-0  w-[100%]'>
+          <div className='overflow-hidden relative h-full w-full z-0 m-0 p-0'>
           
             <div className='flex transition-transform ease-out duration-3000'>
-            <img src={allImage[selectedImage]} alt="" className='' />
+            <img src={allImage[selectedImage]} alt="" className='h-96 sm:h-[510px] w-full' />
             <div className='absolute inset-0 flex align-text-top justify-between p-4 text-white'>
-               <h1 className=' font-bold text-4xl sm:text-6xl sm:w-1/2 sm:py-3 min-h-20'>{allTitle[selectedTitle]}</h1>
+               <h1 className=' ps-6 font-bold text-4xl sm:text-6xl sm:w-1/2 sm:py-3 min-h-20'>{allTitle[selectedTitle]}</h1>
             </div>
-            <div className='absolute inset-0 flex top-28 lg:top-36 sm:w-1/2 justify-between p-4 text-white'>
-                <p className='text-lg sm:xl text-justify'>{allDesc[selectedDesc]}</p>
+           
+            <div className='absolute inset-0 flex top-24 lg:top-40 sm:w-1/2 justify-between p-4 text-white'>
+                <p className=' ps-6 font-bold text-2xl text-primary text-justify'>
+                        <TypeAnimation
+                        sequence={[
+                            'People Process Technology Data and Things',
+                            1000, 
+                            'Assess and Mitigate your Digital Risk',
+                            1000,
+                            'Detect Respond and Recover from Incidents',
+                            1000
+                        ]}
+                        wrapper="span"
+                        speed={25}
+                        repeat={Infinity}/>
+                </p>
+            </div>
+
+            <div className='absolute inset-0 flex top-40 lg:top-60 sm:w-1/2 justify-between p-4 text-white'>
+                <p className=' ps-6 text-lg sm:text-xl text-justify'>{allDesc[selectedDesc]}</p>
+            </div>
+
+            <div className='absolute inset-0 top-64 lg:top-2/3 px-10 py-10 sm:py-8 text-white' >
+            <p className=' text-white text-[16px] font-semibold text-center py-3 sm:py-4 sm:w-44 sm:h-14 h-12 w-40 bg-gradient-to-r from-secondary to-primary rounded-full '>Learn More<span>..</span> </p>
             </div>
                
                             
@@ -63,19 +86,19 @@ export function Carousel1(props) {
 
             
 
-                </div>
+            </div>
             
 
 
             <div className='absolute inset-0 flex items-center justify-between p-4 text-white '>
-            <button className='text-4xl' 
+            <button className='text-4xl hidden sm:block' 
             onClick={ ()=> {
                 if (selectedImage < allImage.length-1)
                 setSelectedImage(selectedImage+1)
             }}
             ><IoArrowBackCircleOutline />
             </button>
-            <button className='text-4xl'
+            <button className='text-4xl hidden sm:block'
             onClick={ ()=> {
                 if (selectedImage > 0)
                 setSelectedImage(selectedImage-1)
@@ -84,13 +107,13 @@ export function Carousel1(props) {
             </button>
             </div>
 
-            {/* <div className='absolute bottom-4 right-0 left-0 '>
-                <div className='flex items-center justify-center gap-2 '>
+            <div className='absolute left-0 right-0 bottom-3 sm:bottom-10 '>
+                <div className='flex items-left justify-left ps-12  gap-2 '>
                     {allImage.map((_, i) => (
-                <div key={i} className={`transition-all w-3 h-3 bg-white rounded-full ${selectedImage === i ? "p-2" : "bg-opacity-20"} `} />
+                <div key={i} className={`transition-all w-3 h-3 bg-white rounded-full ${selectedImage === i ? "p-0" : "bg-opacity-20"} `} />
                     ))}
                 </div>
-            </div> */}
+            </div>
 
           </div>  
         </>
