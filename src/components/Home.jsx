@@ -140,7 +140,7 @@ export function Home(props) {
                     <p className='flex'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></p>
                 </div>
             </div>
-            <div className=' h-96 w-full bg-white rounded-md'>
+            <div className=' w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '>
                     <p>“TransConST has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>
@@ -161,20 +161,20 @@ export function Home(props) {
 
 {/*---------------------------------- Client Testimonial End -------------------------  */}
 
-        <div className=' max-h-max space-y-6 w-full bg-white '>
+        <div className=' h-full space-y-6 w-full bg-white '>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 py-8 mx-2'>
-                <div className=' py-3 px-6'>
+                <div className=' py-3 px-6 gap-5'>
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
-                    <div className='h-32 w-full border border-green-500 bg-blue-300 rounded-lg
+                    <div className='h-48 sm:h-32 w-full border border-green-500 bg-blue-300 rounded-lg
                     '>  
                     <p className='ps-20 py-auto'>OFFICE ADDRESS</p>
                     <div className='flex'>
                     <div className='text-3xl py-6 px-3'><RiContactsBookFill/></div>
-                        <div className=''>
+                        <div className='w-full h-full'>
                              <p className=' text-blue-950 text-xl decoration-4 font-bold  px-3 mx-4'>Jagannath Commerce Plaza, 2nd Floor Office No 221, Dombivli Manpada Road, Dombivli East, Thane Maharashtra 421201.
                             </p>
-                        </div>
+                     </div>
                     </div>
                     </div>
                     <div className='h-16 w-full my-3 border border-green-500 bg-blue-300 rounded-lg

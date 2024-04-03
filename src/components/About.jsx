@@ -22,7 +22,7 @@ export function About(props) {
         <div className='max-h-max w-full bg-white'>
             <div className=' grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 py-5'>
                 <div className=' max-h-max w-full  px-5 py-5'>
-                    <h1 className='pb-5 text-4xl font-bold text-blue-950'>About <span className='text-green-600'> TransConst</span></h1>
+                    <h1 className='pb-5 text-4xl font-bold text-blue-950'>About <span className='text-green-600'> STALLION IT SECURITIES</span></h1>
                   <p className=' text-lg text-justify'>"We are One Stop Company, based out of Mumbai, India, offering services and solutions aimed to secure, safeguard, protect and manage your Digital Landscape and Business Enablers - People, Process, Technology, Data and Things, but enabled and empowered you to Build Digital Trust among your Customers. Within in short span of 2 and half years, we have been able carve out our own niche and has been able to serve customers across multiple industry verticals and geographies with quality conscious and innovative services best suited to them.</p>
                 </div>
 

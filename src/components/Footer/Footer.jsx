@@ -20,7 +20,7 @@ export function Footer(props) {
             <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-3 mx-2'>
                 <div className='max-h-max w-full px-3 py-3 mx-1 my-2 text-xl text-justify font-normal'>
                 <span>    
-                 <img src="image/logo.png" alt="logo" className='h-16 '  />
+                 <img src="image/logo1.jpeg" alt="logo" className='h-24 w-60'  />
                 </span>
                 <p>We are One Stop Company, offering range of cyber security and data privacy services and solutions to Secure, Safeguard and Protect your Business Enablers and Build Digital Trust among your customers.</p>
                 </div>
@@ -81,7 +81,7 @@ export function Footer(props) {
         </div>
        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-3 px-6 gap-6 '>
         <div className='max-h-max py-4 px-4 text-xl  w-full bg-white '>
-            <p>© 2022. All Rights Reserved By TransConST</p>
+            <p>© 2024. All Rights Reserved By STALLION IT SECURITIES</p>
         </div>
         <div className='max-h-max py-4 px-4 text-xl items-center  w-full bg-white'>
             <p className='flex space-x-5 opacity-70 '><FaLinkedin /><FaTwitter /><MdOutlineFacebook /></p>
