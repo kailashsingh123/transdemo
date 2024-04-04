@@ -12,6 +12,7 @@ import { Securingtechnology } from './components/Services/Securingtechnology.jsx
 import { Securingthings } from './components/Services/Securingthings.jsx'
 import { Securingdata } from './components/Services/Securingdata.jsx'
 import { Solutions } from './components/Solutions.jsx'
+import { Contact } from './components/Contact.jsx'
 
 
 
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route path='/securingthings' element={<Securingthings/>} />
       <Route path='/securingdata' element={<Securingdata/>} />
       <Route path='/solutions' element={<Solutions/>} />
+      <Route path='/contact' element={<Contact/>} />
 
       
       

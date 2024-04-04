@@ -128,11 +128,11 @@ export function Home(props) {
         <p className='text-4xl text-center py-4 font-semibold text-blue-950'>Client Testimonials  </p>
         <p className=' ps-8 text-xl'>Check Our Customers Success Story</p>
          
-         <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-3 px-6 gap-6'>
+         <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-3 px-6 gap-6'>
 
             <div className=' w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
-                <div className='mx-3 text-xl text-justify '><p>"TransCon Services and Technologies greatly stepped up our efforts in designing and implementing the Data Privacy Framework.Their competent set of skills and experiences were exactly what we needed." </p></div>
+                <div className='mx-3 text-xl text-justify '><p>"STALLION IT SECURITIES greatly stepped up our efforts in designing and implementing the Data Privacy Framework.Their competent set of skills and experiences were exactly what we needed." </p></div>
                 <div className='mx-8 py-5 text-xl text-justify '>
                     <h4>Mr. Girish Hadkar</h4>
                     <p>Vice President & Head IT,<small>Tata Realty and Infrastructure Limited</small>
@@ -143,7 +143,7 @@ export function Home(props) {
             <div className=' w-full bg-white rounded-md'>
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '>
-                    <p>“TransConST has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>
+                    <p>“STALLION IT SECURITIES has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>
                 </div>
                 <div className='mx-8 py-5 text-xl text-justify '>
                     <h4>Mr. Sachin Mishra</h4>
@@ -166,7 +166,7 @@ export function Home(props) {
                 <div className=' py-3 px-6 gap-5'>
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
-                    <div className='h-48 sm:h-32 w-full border border-green-500 bg-blue-300 rounded-lg
+                    <div className='h-48 md:h-56 lg:h-32 w-full border border-green-500 bg-blue-300 rounded-lg
                     '>  
                     <p className='ps-20 py-auto'>OFFICE ADDRESS</p>
                     <div className='flex'>
@@ -211,7 +211,7 @@ export function Home(props) {
                     </div>
                     </div>
                 </div>
-                <div className='py-3 px-3'>
+                <div className=' md:pt-32 lg:p-16 py-3 px-3'>
                         <iframe className='h-96 w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.47380446524724!2d73.09151841331472!3d19.21350029152767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795b3169ff78f%3A0x975f18de11e9a0f2!2sJagannath%E2%80%99s%20Commerce%20Plaza!5e0!3m2!1sen!2snp!4v1712086028017!5m2!1sen!2snp" ></iframe>
                 </div>
             </div>

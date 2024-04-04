@@ -1,5 +1,4 @@
 import React from 'react'
-import { Carousel } from './Carousel'
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 import Marquee from "react-fast-marquee";
 
@@ -12,8 +11,8 @@ export function About(props) {
         <div className=' container mx-auto my-auto md:py-24 lg:py-24 py-24'>
         
         <div className=''>
-         <div className=' bg-green-500 '>
-            <h1 className=' text-center py-10 text-3xl font-bold text-blue-950 '>About Us</h1>
+         <div className='bg-green-500 '>
+            <h1 className='animate__animated animate__fadeInUp text-center py-10 text-3xl font-bold text-blue-950 '>About Us</h1>
          </div>
           
          

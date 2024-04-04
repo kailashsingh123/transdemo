@@ -79,7 +79,7 @@ function handleMouseLeave() {
                {/* ------------------- */}
                 
                 <li className='mx-1 my-2 md:my-2'><NavLink to="/solutions">SOLUTIONS</NavLink></li>
-                <li className='mx-1 my-2 md:my-2'>CONTACT</li>
+                <li className='mx-1 my-2 md:my-2'><NavLink to="/contact">CONTACT</NavLink></li>
                 <li className='mx-1 my-2 md:my-2 text-nowrap'>WORK WITH US</li>
               </ul>
               </div> 
