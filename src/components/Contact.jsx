@@ -10,7 +10,7 @@ export function Contact(props) {
     return (
         <>
 
-    <div className=' container mx-auto my-auto md:py-24 lg:py-24 py-24'>
+<div className='w-full h-full m-0 p-0 md:py-24 lg:py-24 py-24'>
 
     {/* ------------------------Contact--------------------------------- */}
 
@@ -41,7 +41,7 @@ export function Contact(props) {
 
         {/* ------------------------Form + Address--------------------------------- */}
 
-        <div className=' container w-full h-full bg-blue-50'>
+        <div className=' w-full h-full bg-blue-50'>
             <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 py-4 px-4'>
 
                 <div className='w-full h-full'>

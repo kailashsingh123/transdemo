@@ -16,30 +16,37 @@ export function Footer(props) {
 
     return (
         <>
-        <div className=' max-h-max space-y-6 w-full bg-white px-12 '>
-            <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5 py-3 mx-2'>
-                <div className='max-h-max w-full px-8 py-3 my-2 text-xl text-justify font-normal'>
+     <div className=' w-full h-full m-0 p-0'>
+        <div className=' space-y-6 w-full h-full bg-white '>
+            <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5 py-3 mx-2 content-center'>
+
+                <div className='grid justify-items-center'>
+                <div className='max-h-max w-[80%]  py-3 my-2 text-xl text-justify font-normal'>
                 <span>    
                  <img src="image/logo1.jpeg" alt="logo" className='h-24 w-60'  />
                 </span>
                 <p className='pt-3'>We are One Stop Company, offering range of cyber security and data privacy services and solutions to Secure, Safeguard and Protect your Business Enablers and Build Digital Trust among your customers.</p>
                 </div>
+                </div>
 
                
-                <div className='max-h-max w-full px-8 py-6 mx-10 my-2 text-xl text-justify font-normal'>
-                <h1 className='text-2xl text-blue-950 font-semibold'>Company</h1>
-                <ul className='text-lg py-2 opacity-80'>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Solutions</li>
-                    <li>Contact</li>
-                    <li>Work With Us</li>
-                    <li>Privacy and Cookie Policy</li>
-                </ul>
+                <div className='max-h-max w-full  py-6  my-2 text-xl text-justify font-normal'>
+                <h1 className='text-2xl ps-16 text-blue-950 font-semibold'>Company</h1>
+                <div className='grid justify-items-center'>
+                    <ul className='text-lg py-2 opacity-80'>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Solutions</li>
+                        <li>Contact</li>
+                        <li>Work With Us</li>
+                        <li>Privacy and Cookie Policy</li>
+                    </ul>
+                </div>
                 </div>
 
                 <div className='max-h-max w-full px-8 py-3 my-2 mx-1 text-xl text-justify font-normal'>
+                    <div className=''>
                     <div>
                     <h1 className='text-2xl text-blue-950 font-semibold'>Contact Us</h1>
                     <p className='flex text-xl py-auto px-3 font-bold opacity-80'><span className='pt-2 pe-3'><MdEmail /></span>Email</p>
@@ -57,7 +64,7 @@ export function Footer(props) {
                     </div>
                 </div>
                 
-                
+                </div> 
 
             </div>
         </div>
@@ -69,6 +76,8 @@ export function Footer(props) {
             <p className='flex space-x-5 opacity-70 '><FaLinkedin /><FaTwitter /><MdOutlineFacebook /></p>
         </div>
         </div>
+
+    </div>
         
 
         </>

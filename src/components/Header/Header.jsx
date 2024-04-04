@@ -32,7 +32,7 @@ function handleMouseLeave() {
 
     return (
       <>
-        <header>
+        <div className='w-full h-full'>
           <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-indigo-950
            shadow md:items-center md:justify-between'>
             <div className='w-[60%] sm:w-[25%] flex justify-between items-center'>
@@ -100,7 +100,7 @@ function handleMouseLeave() {
               
                        
           </nav>
-        </header>
+        </div>
            
         </>
     )

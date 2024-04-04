@@ -163,7 +163,8 @@ export function Home(props) {
 
         <div className=' h-full space-y-6 w-full bg-white '>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 py-8 mx-2'>
-                <div className=' py-3 px-6 gap-5'>
+                {/* <div className=' py-3 px-6 gap-5'> */}
+                <div className=' py-3  gap-5'>
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
                     <div className='h-48 md:h-56 lg:h-32 w-full border border-green-500 bg-blue-300 rounded-lg

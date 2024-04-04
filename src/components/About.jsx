@@ -8,17 +8,17 @@ export function About(props) {
     return (
         <>
         {/* About Us */}
-        <div className=' container mx-auto my-auto md:py-24 lg:py-24 py-24'>
+        <div className=' w-full h-full m-0 p-0 md:py-24 lg:py-24 py-24'>
         
-        <div className=''>
-         <div className='bg-green-500 '>
+        
+         <div className='w-full h-full m-0 p-0 bg-green-500 '>
             <h1 className='animate__animated animate__fadeInUp text-center py-10 text-3xl font-bold text-blue-950 '>About Us</h1>
          </div>
           
          
         {/* About Transconst */}
         
-        <div className='max-h-max w-full bg-white'>
+        <div className='h-full w-full bg-white'>
             <div className=' grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 py-5'>
                 <div className=' max-h-max w-full  px-5 py-5'>
                     <h1 className='pb-5 text-4xl font-bold text-blue-950'>About <span className='text-green-600'> STALLION IT SECURITIES</span></h1>
@@ -39,7 +39,7 @@ export function About(props) {
             </div>
             </div> 
 
-        </div> 
+        
 
         {/* Vision Mission */}
 
@@ -82,8 +82,8 @@ export function About(props) {
 
         {/* Founders Message */}
 
-        <div className=' max-h-max w-full bg-blue-100 mx-auto my-4'>
-            <div className=' grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 py-10 px-5 mx-auto'>
+        <div className=' h-full w-full bg-blue-100 mx-auto my-4'>
+            <div className=' grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 py-10 max-auto'>
                 <div className='w-full h-full px-2 py-6'>
                     <img src="image/sk.jpg" className=' h-96 w-96' alt="" />
                     <h1 className='text-4xl text-blue-950 font-bold text-center tracking-wider italic text-nowrap'>Jatinkumar Modh</h1>
