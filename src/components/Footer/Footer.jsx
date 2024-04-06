@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
@@ -31,21 +32,22 @@ export function Footer(props) {
 
                
                 <div className='max-h-max w-full  py-6  my-2 text-xl text-justify font-normal'>
-                <h1 className='text-2xl ps-16 text-blue-950 font-semibold'>Company</h1>
+                
                 <div className='grid justify-items-center'>
-                    <ul className='text-lg py-2 opacity-80'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Solutions</li>
-                        <li>Contact</li>
-                        <li>Work With Us</li>
-                        <li>Privacy and Cookie Policy</li>
+                    <ul className='text-lg'>
+                    <h1 className='text-2xl text-blue-950  font-semibold'>Company</h1>
+                        <li className='hover:underline opacity-80'><Link to="/">Home</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/about">About Us</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/securingpeople">Services</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/solutions">Solutions</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/contact">Contact</Link></li>
+                        <li className='hover:underline opacity-80'><Link>Work With Us</Link></li>
+                        <li className='hover:underline opacity-80'><Link>Privacy and Cookie Policy</Link></li>
                     </ul>
                 </div>
                 </div>
 
-                <div className='max-h-max w-full px-8 py-3 my-2 mx-1 text-xl text-justify font-normal'>
+                <div className='max-h-max w-full px-8 my-6 mx-1 text-xl text-justify font-normal'>
                     <div className=''>
                     <div>
                     <h1 className='text-2xl text-blue-950 font-semibold'>Contact Us</h1>

@@ -33,7 +33,7 @@ function handleMouseLeave() {
     return (
       <>
         <div className='w-full h-full'>
-          <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-indigo-950
+          <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-black
            shadow md:items-center md:justify-between'>
             <div className='w-[60%] sm:w-[25%] flex justify-between items-center'>
                <Link to="/">
@@ -52,7 +52,7 @@ function handleMouseLeave() {
             </div>
             <div className='flex justify-between items-left'>
 
-             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-8 md:pb-0 py-1 text-amber-200 absolute md:static bg-indigo-950 opacity-95  z-10 left-0 w-40 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
+             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-8 md:pb-0 py-1 text-amber-200 absolute md:static bg-black opacity-95  z-10 left-0 w-40 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
 
 
              {/* <ul className={`flex bg-indigo-950 text-amber-200 justify-end pl-24 space-x-8 `} >
@@ -64,7 +64,7 @@ function handleMouseLeave() {
                   {/* {!isOpen ? (<TiPlus />) : (<TiMinus />)} */}
                 
 {/*             Drop Down Button */}
-               {isOpen && (<div className='bg-indigo-950 absolute overflow-hidden top-10 flex flex-col p-3 w-52 rounded-bl-2xl rounded-br-2xl'>
+               {isOpen && (<div className='bg-black absolute overflow-hidden top-10 flex flex-col p-3 w-52 rounded-bl-2xl rounded-br-2xl'>
                 <ul className='space-y-6'>
                      <li className=''><NavLink to="/securingpeople">Securing People</NavLink></li>
                      <li className=''><NavLink to="/securingprocess">Securing Process</NavLink>{}</li>

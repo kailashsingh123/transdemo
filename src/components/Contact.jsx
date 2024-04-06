@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Contactform } from './Form/Contactform';
 import { TypeAnimation } from 'react-type-animation';
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -45,16 +46,19 @@ export function Contact(props) {
             <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 py-4 px-4'>
 
                 <div className='w-full h-full'>
+                    <div>
                     <p className='text-blue-950 text-4xl font-semibold'>Have Question about our</p>
                     <p className='text-blue-950 text-4xl font-semibold'>Services and Solutions?</p>
                     <p className='text-blue-950 text-4xl font-semibold'>Drop us a Message</p>
                     <p className='text-lg py-2'>We will catch you as early as we receive the message</p>
+                    </div>
+                    <div>
+                        {/* <Contactform/> */}
+                    </div>
                 </div>
 
                 <div className='w-full h-full'>
-
                 <div className=' py-3 px-6 gap-5'>
-
                    <div className='h-32 w-full my-3 border border-green-500 bg-blue-200 
                     '>
                     <div className='flex text-xl px-4 py-2 space-x-3'>  
