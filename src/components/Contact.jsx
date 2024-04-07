@@ -23,27 +23,32 @@ export function Contact(props) {
 
         {/* ------------------------Heloo, नमस्ते --------------------------------- */}
 
-        <div className=''>
-         <div className=' bg-white'>
-            <h1 className='py-10 px-10 text-4xl font-semibold text-primary'>
-            <TypeAnimation
-                        sequence={[
-                            'Hello',
-                            1000, 
-                            'नमस्ते',
-                            1000
-                        ]}
-                        wrapper="span"
-                        speed={25}
-                        repeat={Infinity}/>    
-            </h1>
-         </div>
+        <div className='w-full'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 px-5 py-10 '>
+            <div className='w-full bg-white text-center'>
+                <h1 className=' px-10 text-4xl font-semibold text-primary '>
+                <TypeAnimation
+                            sequence={[
+                                ' Greetings',
+                                1000, 
+                                'Welcome',
+                                1000
+                            ]}
+                            wrapper="span"
+                            speed={25}
+                            repeat={Infinity}/>    
+                </h1>
+            </div>
+            <div className=' w-full col-span-2 text-center'>
+                <p className='text-justify px-8 text-xl text-blue-950'>“We are committed to exceed customer expectations by adhering to quality standards and through continual improvements and innovation in all our business process”.</p>
+            </div>
+            </div>
         </div>
 
         {/* ------------------------Form + Address--------------------------------- */}
 
         <div className=' w-full h-full bg-blue-50'>
-            <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 py-4 px-4'>
+            <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 py-10 px-4'>
 
                 <div className='w-full h-full'>
                     <div>
@@ -53,7 +58,7 @@ export function Contact(props) {
                     <p className='text-lg py-2'>We will catch you as early as we receive the message</p>
                     </div>
                     <div>
-                        {/* <Contactform/> */}
+                        <Contactform/>
                     </div>
                 </div>
 

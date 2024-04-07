@@ -19,7 +19,7 @@ export function Securingpeople(props) {
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
-            <div className='ml-10'>
+            <div className='mx-5'>
              <p className='animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing People</p>
              <p className='animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>People are the biggest asset of any organization in terms of value and contribute more than any other business enabler as all other enablers are either dependent on People or focused around People. Hence protecting and securing People from any physical damage, arming them with latest security techniques and methods is quite essential to ensure the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>

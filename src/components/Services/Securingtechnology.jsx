@@ -19,7 +19,7 @@ export function Securingtechnology(props) {
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
-            <div className='ml-10'>
+            <div className='mx-5'>
              <p className='animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing “Technology”</p>
              <p className='animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>Automating the processes and the mundane and repetitive work of people, helps the business in enhancing the outcome by leveraging the skills of the people to utmost level, thereby catapulting the organization to elite league. Hence assessing the vulnerabilities and the threats to the technology components is quite essential to mitigate the risks arising from the technology, thereby ensuring the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>

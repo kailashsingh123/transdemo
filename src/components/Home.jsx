@@ -100,22 +100,22 @@ export function Home(props) {
 
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/projects-icon-6-removebg-preview.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>30+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>205+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Projects Completed</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/cliente-removebg-preview.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>25+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>300+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Customers</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/factory-industrial.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>9+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>70+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Industry Served</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/country.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>4+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>25+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Countries</p>
         </div>
 
@@ -134,8 +134,8 @@ export function Home(props) {
                 <div className='flex text-5xl py-6'><BiSolidQuoteSingleLeft /><BiSolidQuoteSingleLeft /></div>
                 <div className='mx-3 text-xl text-justify '><p>"STALLION IT SECURITIES greatly stepped up our efforts in designing and implementing the Data Privacy Framework.Their competent set of skills and experiences were exactly what we needed." </p></div>
                 <div className='mx-8 py-5 text-xl text-justify '>
-                    <h4>Mr. Girish Hadkar</h4>
-                    <p>Vice President & Head IT,<small>Tata Realty and Infrastructure Limited</small>
+                    <h4>Duttaprasad Joshi </h4>
+                    <p>Chief Manager,<small> 3I Infotech</small>
                     </p>
                     <p className='flex'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></p>
                 </div>
@@ -146,8 +146,8 @@ export function Home(props) {
                     <p>“STALLION IT SECURITIES has played a key role in helping us strengthen our Information Security Profile. They have been a very able partner in this journey and bring a lot of value to the table through their subject matter expertise.”</p>
                 </div>
                 <div className='mx-8 py-5 text-xl text-justify '>
-                    <h4>Mr. Sachin Mishra</h4>
-                    <p>Head Legal and Company Secretary, <small>Tata Consulting Engineers Limited</small>
+                    <h4>Swapnil Rajepawar</h4>
+                    <p>GM IT Infrastructure, <small>Nanavati Hospital</small>
                     </p>
                     <p className='flex'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></p>
                 </div>
@@ -162,9 +162,9 @@ export function Home(props) {
 {/*---------------------------------- Client Testimonial End -------------------------  */}
 
         <div className=' h-full space-y-6 w-full bg-white '>
-            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 py-8 mx-2'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 pt-8 mx-2'>
                 {/* <div className=' py-3 px-6 gap-5'> */}
-                <div className=' py-3  gap-5'>
+                <div className=' py-3 px-3  gap-5'>
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
                     <div className='h-48 md:h-56 lg:h-32 w-full border border-green-500 bg-blue-300 rounded-lg

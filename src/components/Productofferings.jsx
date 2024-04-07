@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsFillTelephoneFill } from "react-icons/bs";
 
-export function Solutions(props) {
+export function Productofferings(props) {
     
 
     return (
@@ -13,7 +13,7 @@ export function Solutions(props) {
             {/* Securing People  */}
 
          <div className='bg-green-500'>
-          <h1 className='animate__animated animate__fadeInUp text-center m-0 p-0 py-10 text-4xl font-bold text-blue-950 '>Solutions</h1>
+          <h1 className='animate__animated animate__fadeInUp text-center m-0 p-0 py-10 text-4xl font-bold text-blue-950 '>Product Offerings</h1>
          </div>
 
            {/* Securing People */}

@@ -18,7 +18,7 @@ export function Securingprocess(props) {
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
-            <div className='ml-10'>
+            <div className='mx-5'>
              <p className=' animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing Processes</p>
              <p className=' animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>Processes are the step-by-step guide that describes how things are done in the best possible way in the organization, thereby making it easy for people to focus on the major areas. Hence planning and managing key processes effectively and efficiently, not only reduces the risk to the business, but also enables organization to comply with the best methods, thereby ensures the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>

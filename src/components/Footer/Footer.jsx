@@ -39,10 +39,11 @@ export function Footer(props) {
                         <li className='hover:underline opacity-80'><Link to="/">Home</Link></li>
                         <li className='hover:underline opacity-80'><Link to="/about">About Us</Link></li>
                         <li className='hover:underline opacity-80'><Link to="/securingpeople">Services</Link></li>
-                        <li className='hover:underline opacity-80'><Link to="/solutions">Solutions</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/productofferings">Product Offerings</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/">Upcoming Events</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/">Our Experts</Link></li>
                         <li className='hover:underline opacity-80'><Link to="/contact">Contact</Link></li>
-                        <li className='hover:underline opacity-80'><Link>Work With Us</Link></li>
-                        <li className='hover:underline opacity-80'><Link>Privacy and Cookie Policy</Link></li>
+                        <li className='hover:underline opacity-80'><Link to="/">Career</Link></li>
                     </ul>
                 </div>
                 </div>

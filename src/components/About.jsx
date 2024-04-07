@@ -19,13 +19,14 @@ export function About(props) {
         {/* About Transconst */}
         
         <div className='h-full w-full bg-white'>
-            <div className=' grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 py-5'>
-                <div className=' max-h-max w-full  px-5 py-5'>
+            <div className=' grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-2 py-5'>
+                <div className=' max-h-max w-full  px-8 py-5'>
                     <h1 className='pb-5 text-4xl font-bold text-blue-950'>About <span className='text-green-600'> STALLION IT SECURITIES</span></h1>
-                  <p className=' text-lg text-justify'>"We are One Stop Company, based out of Mumbai, India, offering services and solutions aimed to secure, safeguard, protect and manage your Digital Landscape and Business Enablers - People, Process, Technology, Data and Things, but enabled and empowered you to Build Digital Trust among your Customers. Within in short span of 2 and half years, we have been able carve out our own niche and has been able to serve customers across multiple industry verticals and geographies with quality conscious and innovative services best suited to them.</p>
+                  <p className=' text-lg text-justify'>Stallion IT Securities Worldwide Pvt. Ltd. is a technologically driven global institutionfrom the city of Mumbai India. We deploy our service-oriented courtesies into IT and
+                  Information Security services. India is advancing and evolving its potential in zones like IT Outsourcing, Systems Integration, IT Infrastructure Management, IT Security, Audit Services, Cyber Crime Investigations, Cyber Law, Cyber Forensics and IT Security Training Business. We at Stallion IT Securities Worldwide Pvt. Ltd are passionate about India's growth in this spectrum and are augmenting this evolution through our expertise. Our training and development cell has been exemplary in nurturing the brightest minds in the industry. We are also proud to be one of the most trusted and largest in the country providing Information Security & Ethical Hacking training courses in India. Our professionals come from all backgrounds and are today competing as a global level in the field of information security.The company is inspired by the guiding principle and vision of educating cyber aspirants and making the masses aware of the nuances of cybercrime. We provide Training, workshops, seminars, and boot camps on Cyber Security, Computer Forensics & Cyber Investigation Support. Catering to additional IT Services and Sales is also one of our USPs, for some of our clientele.</p>
                 </div>
 
-                <div className='flex max-h-max w-full  px-10'>
+                {/* <div className='flex max-h-max w-full  px-10'>
  
                    <div className='top-10 hover:scale-x-110 hover:scale-y-110 transition duration-300'>
                      <img src="image/attack.jpeg" className=' pt-3 max-h-lvh w-72 float-left rounded-bl-3xl' alt="" />
@@ -34,6 +35,17 @@ export function About(props) {
                      <img src="image/security.jpg" className=' max-h-lvh w-96 float-right rounded-br-3xl' alt="" />
                     </div>
                    
+                </div> */}
+
+                <div className='flex flex-col max-h-max w-full py-4  px-10'>
+                
+                    <div className='hover:scale-x-110 hover:scale-y-110 transition duration-300'>
+                    <img src="image/attack.jpeg" className=' pt-3 h-72 w-full px-8' alt="" />
+                    </div>
+                    <div className='hover:scale-x-110 hover:scale-y-110 transition duration-300'>
+                    <img src="image/security.jpg" className=' h-80 w-full rounded-b-3xl' alt="" />
+                    </div>
+                
                 </div>
 
             </div>
@@ -82,47 +94,83 @@ export function About(props) {
 
         {/* Founders Message */}
 
-        <div className=' h-full w-full bg-blue-100 mx-auto my-4'>
-            <div className=' grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 py-10 max-auto'>
-                <div className='w-full h-full px-2 py-6'>
-                    <img src="image/sk.jpg" className=' h-96 w-96' alt="" />
-                    <h1 className='text-4xl text-blue-950 font-bold text-center tracking-wider italic text-nowrap'>Jatinkumar Modh</h1>
+        <div className=' h-full w-full bg-blue-100 mx-auto py-10'>
+                <div className='px-14 py-6 float-left'>
+                   <img src="image/sk.jpg" className='h-96 w-96' alt="" />
+                    <h1 className='text-4xl text-blue-950 font-bold text-center tracking-wider italic '>Jatinkumar Modh</h1>
                     <h1 className='text-lg font-bold text-center '>Founder & Principal Consultant</h1>
                 </div>
-                <div className='w-full h-full px-2 py-0 col-span-2'>
+                
+                <div className='w-full h-full px-2 py-0'>
                  <p className=' uppercase text-lg text-green-600'>founders Message</p>   
                 <div className='text-3xl'><BiSolidQuoteSingleLeft /></div>
-                    <ul className='px-6 list-disc text-justify text-lg space-y-3'>
-                        <li>Believes that Security and Trust are 2 key CONSTANT FACTORS behind any successful business ventures and relationships over the millennial of years.</li>
-                        <li>This belief has empowered and driven his professional career over the last 2 decades, with one hand on building Digital Trust in the Digital Landscape through Customer Services, User Experiences and Behaviour and other hand on Securing the Digital Landscape to further Fortify the Digital Trust.</li>
-                        <li>During the journey, he was rewarded by many awards for his efforts both internally by organization and externally. The prominent one was “Next 100 CIO”.</li>
-                        <li>Knowledge requires to be nurtured and that has led Our Founder to share and spread his learning on Data Security and Privacy at Professional Forums – like ISACA, Private and Professional Learning Channels and Educational Institutes.</li>
-                    </ul>
+                    <p className='px-6 list-disc text-justify text-lg space-y-3'>
+                                            He is a well-recognized name in the Cyber World and with an experience of more than
+                        22+ years, he has been conducting Ethical Hacking training and providing
+                        Information Security Services across the globe. He is widely sought-after Speaker on
+                        Cyber Security and Cyber Law and has been invited by many corporates
+                        and leading institutions of India including IIT's and NIT's for conducting workshops,
+                        seminars, boot camps and trainings on Ethical Hacking and Information
+                        Security. He has trained more than 25000 individuals in Colleges, Corporates and
+                        Government Departments. He has trained employees of some of the most
+                        prestigious clients like Accenture, Wipro, Cap Gemini, Trend Micro, TCS, HCL and many
+                        others. His area of expertise includes Vulnerability Assessment, Information Security
+                        Audits, Penetration Testing, Source Code Reviews, Computer Forensics, Ethical
+                        Hacking, Cyber Law, etc. first accomplishment was finding a loophole in SMS gateway.
+                        Protected many Indian websites from getting defaced by Pakistan cyber army with the
+                        help of other team members of Indian officials with a pseudo name (using Fake Identity).
+                        Being a Cyber Security Researcher and Ethical Hacking Expert, has revealed numerous
+                        critical vulnerabilities, bugs, loopholes, etc. on websites and networks of major
+                        corporates and institutions like Indian Railways, Monster India, PKF Group, Eastern
+                        Academy of Science and Technology, Satyam Group of Colleges and many others. He
+                        also resolved many Cyber Crime cases and as a security advisor for various reputed
+                        organizations, banks and ecommerce companies, helping them in designing safe cyber
+                        architecture for their web servers and networks. His major accomplishments include
+                        identifying the websites which were involved in Fraudulent Activities like 419 Scam,
+                        Spamming etc. He recently initiated and set up a feedback loop with different
+                        Antimalware organizations to proactively share & report details about the abusive
+                        Domain names and different Malwares. All his efforts are lauded by members of
+                        various underground hacking groups, security researchers and communities worldwide.
+                        His fanaticism for Ethical Hacking and Cybersecurity made him expert in
+                        the security domain. With an aim to secure the Cyber World from unethical Hackers, Mr.
+                        Subhash Gurav has been imparting practical knowledge of Ethical
+                        Hacking, Information Security and Cyber Forensics to the budding technical workforce of
+                        the country.
+                    </p>
                     <div className='text-3xl'><BiSolidQuoteSingleLeft /></div>
                 </div>
-                
-             
             </div>
-        </div>
 
         {/* Our Partners */}
 
-        <div className='max-h-max w-full bg-white px-6 py-6'>
+        <div className='h-full w-full bg-white px-6 pt-5'>
                  <h1 className='text-4xl text-blue-950 text-center font-semibold '>Our Partners</h1>
             <Marquee speed={100} pauseOnHover>
-            <div className='flex items-center space-x-10 mx-8 py-10'>
+            <div className='flex items-center space-x-10 mx-8 pt-5'>
                 
-                <div className='w-full sm:w-60 h-28'>
-                    <img className='mx-auto' src="image/customer-logo-5.png" alt="" />
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/paloalto.png" alt="" />
                 </div>
-                <div className='w-full sm:w-60 h-28'>
-                    <img className='mx-auto' src="image/customer-logo-10.png" alt="" />
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/microsoft.png" alt="" />
                 </div>
-                <div className='w-full sm:w-60 h-28'>
-                    <img className='mx-auto' src="image/customer-logo-5.png" alt="" />
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/cyberoam.jpg" alt="" />
                 </div>
-                <div className='w-full sm:w-60 h-28'>
-                    <img className='mx-auto' src="image/customer-logo-10.png" alt="" />
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/nexus.jpg" alt="" />
+                </div>
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/qacademy.png" alt="" />
+                </div>
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/dell.png" alt="" />
+                </div>
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/hp.jpg" alt="" />
+                </div>
+                <div className=''>
+                    <img className='mx-auto w-52' src="image/Siemon.png" alt="" />
                 </div>
                 
             </div>

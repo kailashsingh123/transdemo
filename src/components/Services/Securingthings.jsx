@@ -18,7 +18,7 @@ export function Securingthings(props) {
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
-            <div className='ml-10'>
+            <div className='mx-5'>
              <p className='animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing “Things”</p>
              <p className='animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>The objects or tools or sensors which aids in automating the processes and gets rid of the mundane and repetitive work of people, plays a pivotal and significant role in achieving the goals and objectives of the organization. Hence securing the communication between the systems (objects or tools or sensors), not only enhances the security of the operational technology and industrial control systems, but also mitigates the risk from it, thereby ensuring the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>

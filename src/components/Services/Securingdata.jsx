@@ -19,7 +19,7 @@ export function Securingdata(props) {
            {/* Securing People */}
          <div className='max-h-max w-full bg-white'>
            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 py-4 px-4 gap-4'>
-            <div className='ml-10'>
+            <div className='mx-5'>
              <p className='animate__animated animate__fadeInUp text-blue-950 text-4xl font-bold'>Securing “Data”</p>
              <p className='animate__animated animate__fadeInUp text-[22px] pt-3 text-justify'>The information and the intelligence derived from the efforts of the people, to make the processes automatic; through the use of technology and its objects, plays a decisive and conclusive role in determining the productivity of the organization. Hence strategizing, managing and securing the critical data or information throughout its lifecycle, not only multiplies its value, but also ensures the success of the business.</p>
              <p className='text-2xl py-4 text-blue-950 font-bold'>Value</p>

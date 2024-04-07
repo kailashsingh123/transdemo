@@ -35,31 +35,37 @@ function handleMouseLeave() {
         <div className='w-full h-full'>
           <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-black
            shadow md:items-center md:justify-between'>
-            <div className='w-[60%] sm:w-[25%] flex justify-between items-center'>
+            <div className='w-full flex justify-between items-center'>
                <Link to="/">
              <span>    
                  <img src="image/logo1.jpeg" alt="logo" className='h-24 w-60'  />
             </span>
                </Link>
-               
-              {/* <button className='flex text-3xl text-amber-200 cursor-pointer md:hidden'
+
+              {/*  Icons  */}
+              <div>
+              <button className='flex justify-end text-3xl text-amber-200 cursor-pointer md:hidden mx-3'
                onClick={handleClick}
               >
               {menu ? <IoMdClose/> : <FaBars/>}
-              </button> */}
+              </button>
+              </div> 
+
+
+              {/*  Icons  */}
 
 
             </div>
             <div className='flex justify-between items-left'>
 
-             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-8 md:pb-0 py-1 text-amber-200 absolute md:static bg-black opacity-95  z-10 left-0 w-40 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
+             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-4 pe-4 md:pb-0 py-1 text-amber-200 absolute md:static bg-black opacity-95  z-10 left-0 w-50 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
 
 
              {/* <ul className={`flex bg-indigo-950 text-amber-200 justify-end pl-24 space-x-8 `} >
                */}
-                <li className='mx-1 my-2 md:my-2 pl-7'><NavLink to="/"
+                <li className='mx-1 my-2 md:my-2 pl-3'><NavLink to="/"
                 >HOME</NavLink></li>
-                <li className='mx-1 my-2 md:my-2'><NavLink to="/about">ABOUT</NavLink></li>
+                <li className='mx-1 my-2 md:my-2 text-nowrap'><NavLink to="/about">ABOUT US</NavLink></li>
                 <li  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='mx-1 my-3 md:my-2 w-16 pb-6 h-6 bg:yellow-950 cursor-pointer  hover:underline-offset-[3px]'>SERVICES
                   {/* {!isOpen ? (<TiPlus />) : (<TiMinus />)} */}
                 
@@ -78,15 +84,17 @@ function handleMouseLeave() {
                 </li>
                {/* ------------------- */}
                 
-                <li className='mx-1 my-2 md:my-2'><NavLink to="/solutions">SOLUTIONS</NavLink></li>
+                <li className='mx-1 my-2 md:my-2 text-nowrap'><NavLink to="/productofferings">PRODUUCT OFFERINGS</NavLink></li>
+                <li className='mx-1 my-2 md:my-2 text-nowrap'><NavLink to="/">UPCOMING EVENTS</NavLink></li>
+                <li className='mx-1 my-2 md:my-2 text-nowrap'><NavLink to="/">OUR EXPERTS</NavLink></li>
                 <li className='mx-1 my-2 md:my-2'><NavLink to="/contact">CONTACT</NavLink></li>
-                <li className='mx-1 my-2 md:my-2 text-nowrap'>WORK WITH US</li>
+                <li className='mx-1 my-2 md:my-2'><NavLink to="/">CAREER</NavLink></li>
               </ul>
               </div> 
 
               {/*  Icons  */}
 
-             <div className=' w-[40%] sm:w-[20%] flex text-3xl cursor-pointer text-amber-200 space-x-4 justify-end  sm:justify-center px-4 '>
+             {/* <div className=' w-[40%] sm:w-[20%] flex text-3xl cursor-pointer text-amber-200 space-x-4 justify-end  sm:justify-center px-4 '>
               
               <button className=' '><FaRegArrowAltCircleRight /></button>
               <button className='md:hidden'
@@ -94,7 +102,7 @@ function handleMouseLeave() {
               >
               {menu ? <IoMdClose/> : <FaBars/>}
               </button>
-              </div>
+              </div> */}
 
               {/*  Icons  */}
               
