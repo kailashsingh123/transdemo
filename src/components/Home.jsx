@@ -53,7 +53,8 @@ export function Home(props) {
                 </div>   
         </div>
 
-        <div className='max-h-max w-full bg-sky-200'>
+{/* -----------------------------------Our Services----------------------------------- */}
+        {/* <div className='max-h-max w-full bg-sky-200'>
             <p className='text-4xl text-center font-semibold text-blue-950'>Our Services</p>
            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 px-10 mx-auto place-items-center' >
            <div className='bg-white px-5 shadow-2xl py-6  h-full w-auto'>
@@ -92,8 +93,70 @@ export function Home(props) {
                     <p className='text-white text-[18] text-center py-4 mx-24 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
             </div>
            </div>
+        </div> */}
+
+        <div className='h-full w-full bg-sky-200'>
+            <p className='text-4xl text-center font-semibold text-blue-950'>Our Services</p>
+           <div className='flex flex-wrap justify-center px-3 gap-2 py-5' >
+           <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
+                    <span><img src="image/sec-pepo.jpg" alt="" className='h-36 w-36 mx-auto' /></span>
+                    <h1 className='text-2xl text-center font-medium text-violet-950'>Securing People</h1>
+                    <div className='sm:h-[200px]'>
+                    <p className='text-justify text-xl pb-3'>People are the biggest asset of any organization in terms of value and contribute more than any other business enabler as all other enablers are either dependent on People or focused.
+                    </p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    </div>
+            </div>
+            <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
+                    <span><img src="image/sec-proess.jpg" alt="" className='h-36 w-36 mx-auto' /></span>
+                    <h1 className='text-2xl font-medium text-center text-violet-950'>Securing “Processes”</h1>
+                    <div className='sm:h-[200px]'>
+                    <p className='text-justify text-xl pb-3'>Processes are the step-by-step guide that describes how things are done in the best possible way in the organization, thereby making it easy for people to focus on the major areas.
+                    </p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    </div>
+            </div>
+            <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
+                    <span><img src="image/sec-tech.jpg" alt="" className='h-36 w-36 mx-auto' /></span>
+                    <h1 className='text-2xl font-medium text-center text-violet-950'>Securing “Technology”</h1>
+                    <div className='sm:h-[200px]'>
+                    <p className='text-justify text-xl pb-3'>Automating the processes and the mundane and repetitive work of people, helps the business in enhancing the outcome by leveraging the skills of the people to utmost level.
+                    </p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    </div>
+            </div>
+            <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
+                    <span><img src="image/service-think.jpg" alt="" className='h-36 w-36 mx-auto' /></span>
+                    <h1 className='text-2xl font-medium text-center text-violet-950'>Securing “Things”</h1>
+                    <div className='sm:h-[200px]'>
+                    <p className='text-justify text-xl pb-3'>The objects or tools or sensors which aids in automating the processes and gets rid of the mundane and repetitive work of people, plays a pivotal and significant role in achieving the goals of the organization.
+                    </p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    </div>
+            </div>
+            <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
+                    <span><img src="image/service-data1.jpg" alt="" className='h-36 w-36 mx-auto' /></span>
+                    <h1 className='text-2xl font-medium text-center text-violet-950'>Securing “Data”</h1>
+                    <div className='sm:h-[200px]'>
+                    <p className='text-justify text-xl pb-3'>The information and the intelligence derived from the efforts of the people, to make the processes automatic; through the use of technology and its objects, plays a decisive and conclusive role.
+                    </p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    </div>
+            </div>
+           </div>
         </div>
 
+ {/* -----------------------------Our Work & Reach--------------------------------- */}
         <div className='max-h-full w-full bg-indigo-100 bg-opacity-40'>
         <p className='text-3xl text-center font-semibold text-blue-950'>Our Work & Reach</p>
         <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 px-10 mx-auto place-items-center' >
@@ -164,7 +227,8 @@ export function Home(props) {
         <div className=' h-full space-y-6 w-full bg-white '>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 pt-8 mx-2'>
                 {/* <div className=' py-3 px-6 gap-5'> */}
-                <div className=' py-3 px-3  gap-5'>
+                <div className='w-full  gap-5'>
+                    
                     <h1 className='text-4xl font-semibold text-blue-950'>Interested in working with us?</h1>
                     <p className='text-xl py-1'>LET’S TALK AND GET STARTED</p>
                     <div className='h-48 md:h-56 lg:h-32 w-full border border-green-500 bg-blue-300 rounded-lg
@@ -212,7 +276,7 @@ export function Home(props) {
                     </div>
                     </div>
                 </div>
-                <div className=' md:pt-32 lg:p-16 py-3 px-3'>
+                <div className=' md:pt-32 lg:p-8 py- px-3'>
                         <iframe className='h-96 w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.47380446524724!2d73.09151841331472!3d19.21350029152767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795b3169ff78f%3A0x975f18de11e9a0f2!2sJagannath%E2%80%99s%20Commerce%20Plaza!5e0!3m2!1sen!2snp!4v1712086028017!5m2!1sen!2snp" ></iframe>
                 </div>
             </div>

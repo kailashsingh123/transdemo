@@ -7,7 +7,7 @@ export function Productofferings(props) {
     return (
         <>
 
-<div className='container mx-auto my-auto md:py-24 lg:py-24 py-28'>
+        <div className='container mx-auto my-auto md:py-24 lg:py-24 py-28'>
         {/* <div className='overflow-hidden relative mix-blend-overlay'> */}
             
             {/* Securing People  */}
