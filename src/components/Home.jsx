@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Carousel } from './Carousel'
 import { Carousel1 } from './Carousel1';
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
@@ -7,12 +7,15 @@ import { RiContactsBookFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { NavLink } from 'react-router-dom';
+import CountUp  from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 
 
 
 export function Home(props) {
+
+    const [counterOn, setCounterOn] = useState(false);
     
 
     return (
@@ -157,33 +160,39 @@ export function Home(props) {
         </div>
 
  {/* -----------------------------Our Work & Reach--------------------------------- */}
+        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
         <div className='max-h-full w-full bg-indigo-100 bg-opacity-40'>
         <p className='text-3xl text-center font-semibold text-blue-950'>Our Work & Reach</p>
         <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 px-10 mx-auto place-items-center' >
 
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/projects-icon-6-removebg-preview.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>205+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>
+                        {counterOn && <CountUp start={0} end={205} duration={2} delay={0} />}+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Projects Completed</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/cliente-removebg-preview.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>300+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>
+                    {counterOn && <CountUp start={0} end={300} duration={2} delay={0} />}+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Customers</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/factory-industrial.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>70+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>
+                    {counterOn && <CountUp start={0} end={70} duration={2} delay={0} />}+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Industry Served</p>
         </div>
         <div className='bg-white py-5 px-2 shadow-2xl opacity-100  h-56 w-72 rounded-bl-3xl'>
                     <span><img src="image/country.png" alt="" className='h-20 w-20 mx-auto' /></span>
-                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>25+</h1>
+                    <h1 className='text-3xl pt-3 text-center font-semibold  text-violet-950'>
+                        {counterOn && <CountUp start={0} end={25} duration={2} delay={0} />}+</h1>
                     <p className='text-xl p-5 font-semibold text-blue-950'>Countries</p>
         </div>
 
         </div>
         </div>
+        </ScrollTrigger>
 {/*--------------------------- Client Testimonial Start --------------------------------  */}
 
 

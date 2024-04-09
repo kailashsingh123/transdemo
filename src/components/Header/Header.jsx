@@ -63,7 +63,7 @@ function handleMouseLeave() {
 
              {/* <ul className={`flex bg-indigo-950 text-amber-200 justify-end pl-24 space-x-8 `} >
                */}
-                <li className='mx-1 my-2 md:my-2 pl-3'><NavLink to="/"
+                <li className='mx-1 my-2 md:my-2'><NavLink to="/"
                 >HOME</NavLink></li>
                 <li className='mx-1 my-2 md:my-2 text-nowrap'><NavLink to="/about">ABOUT US</NavLink></li>
                 <li  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='mx-1 my-3 md:my-2 w-16 pb-6 h-6 bg:yellow-950 cursor-pointer  hover:underline-offset-[3px]'>SERVICES

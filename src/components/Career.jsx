@@ -71,7 +71,7 @@ export function Career(props) {
                     <div className='col-span-2 pr-4'>
                         <p className='text-[23px] py-3 font-bold text-blue-950 '>
                         Work and Grow with Us</p>
-                        <p className='text-[17px] font-normal text-justify'>Prove Yourself, then Sky is the Limit.</p>
+                        <p className='text-[17px] font-normal text-justify ps-6 sm:ps-0'>Prove Yourself, then Sky is the Limit.</p>
                     </div>
                 </div>
                 </div>
@@ -82,7 +82,7 @@ export function Career(props) {
                         <img src="image/Untitled-4.jpg" className='h-40 w-36 py-4 mx-auto' alt="" />
                     </div>
                     <div className='col-span-2 pr-4'>
-                        <p className='text-[23px] py-3 font-bold text-blue-950 text-nowrap '>        
+                        <p className='text-[23px] py-3 font-bold text-blue-950'>        
                         Cordial and Friendly Environment</p>
                         <p className='text-[17px] font-normal text-justify'>Relationships and Work are equally important.</p>
                     </div>
