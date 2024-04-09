@@ -33,7 +33,7 @@ function handleMouseLeave() {
     return (
       <>
         <div className='w-full h-full'>
-          <nav className='flex py-2 pl-7 fixed z-50 mx-auto my-auto  w-full bg-black
+          <nav className='flex py-2 pl-1 sm:pl-7 fixed z-50 mx-auto my-auto  w-full bg-black
            shadow md:items-center md:justify-between'>
             <div className='w-full flex justify-between items-center'>
                <Link to="/">
@@ -58,7 +58,7 @@ function handleMouseLeave() {
             </div>
             <div className='flex justify-between items-left'>
 
-             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-4 pe-4 md:pb-0 py-1 text-amber-200 absolute md:static bg-black opacity-95  z-10 left-0 w-50 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
+             <ul className={`lg:flex md:flex md:items-center lg:items-left space-x-1 lg:space-x-4 pe-4 md:pb-0 py-1 text-amber-200 absolute md:static bg-black opacity-95  z-10 left-0 w-50 md:w-full md:pl-0  lg:pl-24 transition-all duration-500 transform ease-in ${menu ? 'left-0 top-28' : 'top-[-490px]'} `}>
 
 
              {/* <ul className={`flex bg-indigo-950 text-amber-200 justify-end pl-24 space-x-8 `} >
