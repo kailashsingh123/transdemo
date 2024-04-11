@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Carousel } from './Carousel'
+import { Link, NavLink } from 'react-router-dom'
 import { Carousel1 } from './Carousel1';
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 import { FcRating } from "react-icons/fc";
@@ -16,6 +17,7 @@ import ScrollTrigger from "react-scroll-trigger";
 export function Home(props) {
 
     const [counterOn, setCounterOn] = useState(false);
+  
     
 
     return (
@@ -109,7 +111,7 @@ export function Home(props) {
                     </p>
                     </div>
                     <div className='w-full flex justify-center'>
-                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '><Link to="/securingpeople">Learn More</Link><span>..</span> </p>
                     </div>
             </div>
             <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
@@ -120,7 +122,7 @@ export function Home(props) {
                     </p>
                     </div>
                     <div className='w-full flex justify-center'>
-                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '><Link to="/securingprocess">Learn More</Link><span>..</span> </p>
                     </div>
             </div>
             <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
@@ -131,7 +133,7 @@ export function Home(props) {
                     </p>
                     </div>
                     <div className='w-full flex justify-center'>
-                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '><Link to="/securingtechnology">Learn More</Link><span>..</span> </p>
                     </div>
             </div>
             <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
@@ -142,7 +144,7 @@ export function Home(props) {
                     </p>
                     </div>
                     <div className='w-full flex justify-center'>
-                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '><Link to="/securingthings">Learn More</Link><span>..</span> </p>
                     </div>
             </div>
             <div className='bg-white px-5 shadow-2xl py-6 w-full md:w-[48%] lg:w-[32%]'>
@@ -153,7 +155,7 @@ export function Home(props) {
                     </p>
                     </div>
                     <div className='w-full flex justify-center'>
-                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '>Learn More<span>..</span> </p>
+                    <p className='text-white text-[18] text-center pt-3 h-14 w-40 bg-gradient-to-r from-blue-500 to-green-500 rounded-full '><Link to="/securingdata">Learn More</Link><span>..</span> </p>
                     </div>
             </div>
            </div>
